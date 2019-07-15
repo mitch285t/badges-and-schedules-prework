@@ -15,4 +15,6 @@ def assign_rooms(array)
   array.coolect do |name|
     bage_maker(name)
     rooms += 1 
-    Hello
+    "Hello, #{name}! You'll be assigned to room #{room}!"
+  end 
+end
