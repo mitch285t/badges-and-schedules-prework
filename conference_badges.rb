@@ -11,4 +11,8 @@ end
 end
 
 def assign_rooms(array)
-  
+  rooms = 0 
+  array.coolect do |name|
+    bage_maker(name)
+    rooms += 1 
+    
