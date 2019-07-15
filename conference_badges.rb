@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
   rooms = 0 
   array.collect do |name|
-    bage_maker(name)
+    badge_maker(name)
     rooms += 1 
     "Hello, #{name}! You'll be assigned to room #{room}!"
   end 
